@@ -64,5 +64,5 @@ charts:
     # values files needs to be inside this chart
     valueFile: "value-files/admin-dashboard/values.yaml"
   elastic-stack:
-  namespace: monitoring
-  targetRevision: "7.17.3-route-bugfix"
+    namespace: monitoring
+    targetRevision: "7.17.3-route-bugfix"

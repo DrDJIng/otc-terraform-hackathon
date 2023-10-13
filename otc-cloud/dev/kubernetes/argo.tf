@@ -12,7 +12,10 @@ resource "kubernetes_namespace" "argocd" {
 
 resource "random_password" "basic_auth_password" {
   length  = 32
-  special = true
+  special = false
+  min_lower = 1
+  min_numeric = 1
+  min_upper = 1
 }
 
 resource "helm_release" "argocd" {
