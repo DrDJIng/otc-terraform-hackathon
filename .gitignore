@@ -51,3 +51,10 @@ build
 **/requirements.lock
 
 ./my-secrets.sh
+.envrc
+my-secrets.sh
+otc-cloud/dev/main.tf
+otc-cloud/dev/settings.tf
+otc-cloud/dev/kubernetes/basic-auth-password.txt
+otc-cloud/dev/kubernetes/settings.tf
+terraform-remote-state-bucket-creation/settings.tf
